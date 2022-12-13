@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarcusTi</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial;
+            font-size: 14px;
+        }
+        .menu-wrapper ul{
+            padding: 0;
+            list-style: none;
+        }
+
+        .principal-menu > li {
+            display: inline-block;
+        }
+
+        .principal-menu > li > a{
+            display: block;
+            padding: 10px 5px;
+            width: 90px;
+        }
+
+        li ul{
+            position: absolute;
+            display: none;
+        }
+
+        li:hover ul{
+            display: block;
+        }
+
+        .menu-wrapper, li ul{
+            background: #333;
+        } 
+
+        .principal-menu {
+            width: 412px;
+            margin: 0 auto;
+        }
+
+        .principal-menu a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .principal-menu li:hover{
+            background: #f75e25;
+            text-shadow: 0 0 2px #000;
+        }
+    </style>
+    <link rel="icon" href="./images/IconPes.ico">
+</head>
+<body style="background-color:#f7f7f7;">
+    <div class="menu-wrapper">
+        <ul class="principal-menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#acercade">Acerca de</a></li>
+            <li><a href="about.html"  class="contacto" title="">Contacto</a></li>
+        </ul>           
+    </div>
+    
+    <header>
+        <img height="5%" width="100%"
+            src="./images/Banner.jpg" />
+        <section>
+            <font size= 12, face="Arial">
+                <h1 style="color:#f26100;">MarcusTi</h1>
+            </font>
+        </section>
+        
+        <div class="conte" style="margin-left: 20px;">
+            <p style="color:#2F1C6A;">Bienvenido a mi tienda Virtual</p>
+            <br><br>
+            <div class="barra_busqueda" style="margin-left: 5px;">
+                <div class="barra_busqueda">
+                    <form class="barra_busqueda action="#" method="post">
+                        <div class="barra_busqueda">
+                            <input class="barra_busqueda_input" type="search" placeholder="Buscar en Pagina">
+                        </div>
+                        <input class="barra_busqueda_submit" type="submit" value="&#10140;"/>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <a href="#">Crear Cuenta</a>
+            <a href="#">Ingresar</a>
+        </div>
+    </header>
+    <div class="contact-form" align= "center">
+        <h2 align= "center" style="color:#2F1C6A; margin-right: 20px;" id="obtencupo">MOTIVATE A COMPRAR <span> AHORA</span></h2>
+        <video  width="550" height="400" controls autoplay muted>
+            <source src="video/videoplayback.mp4" type="video/mp4" />
+          </video>
+    </div>
+    <p style="margin-left: 15px; margin-right: 15px;">Cuando probamos la RTX 3050 por nosotros mismos, y aunque fue con un modelo personalizado de Gigabyte (el que podéis ver en la foto de arriba), nos dejó claro que estábamos ante una gráfica muy solvente en cualquier tipo de juego, entregando un rendimiento sobresaliente para jugar con todo al máximo y sin desfallecer en ningún momento, y debido a su actual precio (que, por cierto, está a la baja y recordemos que NVIDIA la anunció por 279€) nos parece que es, a día de hoy, la mejor elección para cualquier usuario que busque jugar al máximo a 1080p sin gastarse dinero de más.</p>
+    <h2 style="color:#2F1C6A">Caracteristicas de nuestra Tarjeta Grafica</h2>
+    
+    <div style="display: flex;justify-content: center; margin-left: 15px; margin-right: 15px;">
+        <table border="1" width="50%" cellspacing="0" cellpadding="8">
+            <thead
+                style="padding: 8px;background: linear-gradient(#f79b71 50%,#ffed67 0);color: rgb(8, 8, 8);">
+                <tr>
+                    <th>Crendiales Tecnicas</th>
+                    <th>Carácteristicas especiales</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>Software</code></td>
+                    <td>Tecnologia de Punta</td>
+                    <td>Funciona de Manera Mas Rapida</td>
+                </tr>
+                <tr>
+                    <td><code>MAC</code></td>
+                    <td><em>SSD:251:DDf:55</em></td>
+                    <td>Conexion externas de Internet</td>
+                </tr>
+                <tr>
+                    <td><code>DDR%</code></td>
+                    <td>Tecnologia</td>
+                    <td>Compatibilidad de 4K</td>
+                </tr>
+                <tr>
+                    <td><code>Conexcion</code></td>
+                    <td>Doble Puerto</td>
+                    <td>Permite una Conexion Rapita y segura</td>
+                </tr>               
+                
+            </tbody>
+        </table>
+    </div>
+    <br><br>
+<hr>
+<br>
+    <div>
+        <section>
+            <div style="display:flex;justify-content:center;">
+                <img height="1%" width="40%"" src="./images/cupon_Banner.jpg" >
+            </div>
+        <h1 style="color:#2F1C6A", align="center"> <strong>Recibe</strong> todas nuestras<strong> PROMOCIONES</strong></h1>
+        <p align="center">
+            Registra tu correo en nuestro portal web y comienza a recibir email, <br> de nuestra tienda para conseguir las ofertas, <br>
+            que tengamos en el mes, ademas por registrarte por primera vez <br> recibe un cupon de <strong>Descuento de 10%</strong> en cualquiera de nuestros productos
+           <br><br><a href="#obtencupo"> RECIBE TU CUPON DE DESCUENTO </a>
+        </p>
+        </section>
+        <section>
+            <div>
+                
+                <h1 align= "right" style="color:#2F1C6A; margin-right: 20px ;" id="acercade" >INFORMACIÓN DE CONTACTO</h1>
+                <div style="display: flex;justify-content: center;"> 
+                    <img  style="height: 100px; margin-bottom: 20px;" src="images/Logo.png" alt="Post">
+                </div>
+                    <table align="center" border="1" class="default" style="margin-bottom: 20px;">
+                        <tr>
+                            <td >
+                                <ul style="margin-right: 10px;"> <strong>Comerciales - ECUADOR</strong> 
+                                    <li style="margin-left: 20px;">Cuenca - Mercado las Acasias Norte 2° Local</li>
+                                    <li style="margin-left: 20px;">Guayaquil - Mall del Sur</li>
+                                    <li style="margin-left: 20px;">Quito - Mercado Norte de Quitumbes</li>
+                                    <li style="margin-left: 20px;">Ambato - Mercado Central, 1° Local Esquina</li>
+                                    <li style="margin-left: 20px;">Machala - Local Comercial la Piazza</li>
+                                </ul>
+                            </td>
+                           <td>
+                            <ul style="margin-right: 10px;"> <strong>Unete a Nosotros</strong> 
+                                <li style="margin-left: 20px;"> <a href=" ">Preguntas Frecuentes</a></li>
+                                <li style="margin-left: 20px;"> <a href=" ">Comom comprar</a></li>
+                                <li style="margin-left: 20px;"> <a href=" ">Solicitud de Creditos</a></li>
+                                <li style="margin-left: 20px;"> <a href=" ">Terminos y Condiciones</a></li>
+                            </ul>
+                           </td>
+                           <td>
+                            <ul style="margin-right: 10px;"> <strong>Contactenos</strong> 
+                                <p style="margin-left: 20px;"> <img src="images/icons8_email_sign_144px.png" align="left" style="height: 16px; margin-right: 5px;" > marcusti03@machala.gob.ec</p>
+                                <p style="margin-left: 20px;"> <img src="images/icons8_whatsapp_96px.png" align="left" style="height: 16px; margin-right: 5px;" > 0991828721</p>
+                                <p style="margin-left: 20px;"> <img src="images/icons8_phone_480px.png" align="left" style="height: 16px; margin-right: 5px;" > (07) 2130-119</p>
+                            </ul>
+                           </td>
+                        </tr>
+                    </table>
+            </div>
+        </section>
+    </div>
+    <div class="content" style="margin-left: 10px; margin-right: 0px;" align="center">
+
+    <div class="content" style="margin-left: 10px; margin-right: 0px;" align="center">
+        
+        <div class="inscripcion">
+            <h2 align= "left" style="color:#2F1C6A; margin-right: 20px;" id="obtencupo">INSCRIBETE <span> AHORA</span></h2>
+            <form method="POST" action="data.php">
+                <fieldset >  
+                    <legend align="center">Informacion Basica</legend>
+                        <img src="./images/suscribete.jpg" alt="code1" align="right" style="display:flex; height:300px;">
+                    <p>
+                        <label for="apellidos">Apellidos: </label>
+                        <input type="text" name="apellidos" id="apellidos"
+                            placeholder="Escribe tú Apellido" required pattern="[A-Za-z]+"
+                            required />
+                    </p>
+                    <p>
+                        <label for="nombre">Nombres: </label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"
+                            required pattern="[A-Za-z]+" required />
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com"
+                            required />
+                    </p>
+                    <p class="block">
+                        <label for="direccion">Dirección: </label>
+                        <textarea name="direccion" id="direccion" rows="3"
+                            placeholder="Dejanos tú Dirección.." minlength="5"></textarea>
+                    </p>
+                    <p>
+                        <label for="ciudad">Ciudad donde reside: </label>
+                        <input list="ciudad" name="ciudad" id="ciudad" required />
+                        <datalist id="ciudad">
+                            <option value="Machala"></option>
+                            <option value="Guayaquil"></option>
+                            <option value="Ambato"></option>
+                        </datalist>
+                    </p>
+                </fieldset>
+                <br />
+                <p class="button">
+                    <button type="submit">Solicitar mi Cupon de Descuento</button>
+                </p>                
+            </form>
+        </div>
+    </div>
+    
+   
+</body>
+<br><br>
+<hr>
+<br>
+<footer  style="display:flex;justify-content:center;"><center>
+        <p style="align-content: center;">Encuentra la mejor Tecnologia, los mejores programas, y el mejor servicio en nuestras tiendas
+            <br><strong style="align-content: center;">MarcusTi</strong>
+            <br>&copy; 2022 marcusti.utmachala.edu.ec
+        </p>
+    </center>
+  </footer>
+</html>
